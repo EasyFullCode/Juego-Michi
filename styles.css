@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/istock-1096227330.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+}
+#app{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 250px;
+    
+}
+#player{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: solid 1px #000;
+    font-size: 28px;
+    font-weight: bolder;
+    background-color: #ccc;
+}
